@@ -1,12 +1,13 @@
 import React = require('react');
+import {NavigationContainer} from '@react-navigation/native';
 
-import {SafeAreaView, Text} from 'react-native';
+import {SplashScreen} from './pages';
 
 function App() {
   return (
-    <SafeAreaView>
-      <Text>Food Market App</Text>
-    </SafeAreaView>
+    <NavigationContainer>
+      <SplashScreen />
+    </NavigationContainer>
   );
 }
 
