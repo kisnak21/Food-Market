@@ -3,11 +3,11 @@ import React from 'react';
 
 import {Picker} from '@react-native-picker/picker';
 
-const Select = () => {
+const Select = ({label}) => {
   return (
     <View>
       <Text className="text-black" style={styles.label}>
-        Select
+        {label}
       </Text>
       <View style={styles.input}>
         <Picker
